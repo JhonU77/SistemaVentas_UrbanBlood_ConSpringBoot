@@ -1,5 +1,8 @@
 package com.example.sistema_ventas_ropa.Dto;
 
+import com.example.sistema_ventas_ropa.Validation.UniqueEmail;
+import com.example.sistema_ventas_ropa.Validation.ValidPassword;
+
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
@@ -27,11 +30,11 @@ public class RegistrarUsuarioDto {
 
     @NotBlank(message = "El correo es obligatorio")
     @Email(message = "El correo no es válido")
-    //@UniqueEmail
+    @UniqueEmail
     private String correo;
 
     @NotBlank(message = "La contraseña es obligatoria")
-    //@ValidPassword
+    @ValidPassword
     private String contrasena;
 
     @NotBlank(message = "Vuelva ingresar su contraseña")
