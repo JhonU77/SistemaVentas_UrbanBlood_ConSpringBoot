@@ -34,7 +34,7 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/", "/login", "/registro", "/registrar", "/auth/**", 
                     "/css/**", "/favicon.ico", "/js/**", "/img/**", "/admin/platos/crud",
-                    "/carta", "/locales").permitAll()
+                    "/carta", "/locales", "/Bienvenida").permitAll()
                 .requestMatchers(HttpMethod.POST, "/registrar", "/api/registrar").permitAll()
                 .requestMatchers("/api/platos/**").hasRole("ADMIN")
                 .anyRequest().authenticated()
