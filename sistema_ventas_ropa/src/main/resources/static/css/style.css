@@ -1,0 +1,105 @@
+/* Navbar */
+.navbar-custom {
+  background-color: #cdba70;
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #333;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+/* Enlaces generales */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.body-locales {
+  padding-top: 70px;
+}
+
+.body-inicio {
+  padding-top: 117px;
+}
+
+/* Carrusel de imágenes */
+.carousel-img {
+  margin-top: 2px;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Fondo para sección de platos */
+.background-plate {
+  background-color: rgba(250, 238, 206, 0.57);
+  padding: 2rem 0;
+}
+
+/* Imagen de cada plato */
+.plato-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Tarjeta de restaurante */
+.restaurant-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.restaurant-card:hover {
+  transform: scale(1.02);
+}
+
+.restaurant-card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+footer a.text-white:hover {
+  color: #ffc107 !important;
+}
+
+/*carrito*/
+.carrito-btn {
+  background-color: #198754 !important; /* verde Bootstrap */
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 300px;
+  }
+
+  .plato-img {
+    height: 150px;
+  }
+}
+
+.mapa-local {
+  width: 100%;
+  height: 400px;
+  border: 0;
+}

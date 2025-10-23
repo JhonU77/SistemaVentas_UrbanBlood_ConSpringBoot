@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (data.rol === "ROLE_ADMIN") {
         window.location.href = "/admin/platos/crud";
       } else {
-        window.location.href = "/Bienvenida";
+        window.location.href = "/";
       }
     } else {
       const errorMsg = document.getElementById("errorMsg");
