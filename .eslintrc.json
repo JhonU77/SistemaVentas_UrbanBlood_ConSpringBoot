@@ -13,6 +13,8 @@
     "quotes": ["error", "double"],
     "indent": ["error", 2],
     "no-unused-vars": "warn",
-    "no-console": "off"
+    "no-console": "off",
+    "space-before-function-paren": "off",
+    "comma-dangle": "off"
   }
 }

@@ -5,8 +5,8 @@ echo "Ejecutando ESLint..."
 npm run lint
 
 if [ $? -ne 0 ]; then
-  echo "❌ Error: Hay errores en tu JavaScript."
+  echo "Error: Hay errores en tu JavaScript."
   exit 1
 fi
 
-echo "✔ ESLint OK. Commit permitido."
+echo "ESLint correcto. Commit permitido."

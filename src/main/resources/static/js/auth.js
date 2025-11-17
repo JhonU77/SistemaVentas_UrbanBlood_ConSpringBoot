@@ -21,7 +21,7 @@ export function cerrarSesion() {
 export const headers = () => ({
   "Content-Type": "application/json",
   Authorization: "Bearer " + getToken(),
-});
+}); // <- quitada la coma final
 
 export function mostrarUsuarioLogeado() {
   const loginZone = document.getElementById("loginZone");
