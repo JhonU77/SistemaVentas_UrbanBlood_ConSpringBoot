@@ -1,0 +1,39 @@
+# Ignorar la carpeta de compilación de Java
+
+target/
+
+# Ignorar todo el código Java
+
+\*_/_.java
+
+# Ignorar archivos de configuración de Spring Boot
+
+src/main/resources/application*.properties
+src/main/resources/application*.yml
+
+# Ignorar librerías externas dentro de static
+
+src/main/resources/static/vendor/
+src/main/resources/static/lib/
+
+# Ignorar archivos de CSS e imágenes
+
+**/\*.css
+**/_.png
+\*\*/_.jpg
+**/\*.jpeg
+**/\*.gif
+
+# Ignorar HTML, Thymeleaf, JSP
+
+**/\*.html
+**/_.jsp
+\*\*/_.thymeleaf
+
+# Ignorar tests Java
+
+src/test/java/
+
+# Ignorar node_modules
+
+node_modules/
