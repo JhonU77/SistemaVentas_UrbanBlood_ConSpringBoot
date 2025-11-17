@@ -10,4 +10,5 @@ function fallo() {}
 
 const data = {
   nombre: "Juan",
+  apellido: "Bustamante",
 };
